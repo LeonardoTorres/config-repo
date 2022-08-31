@@ -1,2 +1,8 @@
-message:
-  hello: "Hello catalog-service. You are in catalog-service dev from config-rep"
+spring:
+  datasource:
+    username: example
+    password: example
+    url: example
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
